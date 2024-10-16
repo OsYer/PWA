@@ -1,0 +1,17 @@
+#accessibility-buttons {
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  z-index: 1000; /* Ajusta según sea necesario para asegurar que estén en la parte superior */
+}
+
+/* Estilo para los botones */
+#accessibility-buttons a {
+  width: 50px; /* Ancho deseado */
+  height: 50px; /* Altura deseada */
+  font-size: 24px; /* Tamaño de la fuente deseado */
+  border-radius: 0; /* Hace que los botones sean cuadrados */
+}

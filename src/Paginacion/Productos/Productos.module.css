@@ -1,0 +1,116 @@
+.sidebar {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.sidebarSection {
+  margin-bottom: 20px;
+}
+
+.sidebarSection h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.sidebarSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebarSection li {
+  margin-bottom: 5px;
+}
+
+.sidebarSection a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebarSection a:hover {
+  color: #007bff;
+}
+
+.sidebarSection span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #e9ecef;
+  display: inline-block;
+}
+
+.sidebarSection form input[type="text"] {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sidebarSection form button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.sidebarSection form button:hover {
+  background-color: #0056b3;
+}
+
+.productCard {
+  transition: transform 0.3s ease-in-out;
+}
+
+.productCard:hover {
+  transform: scale(1.05);
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  /* Borde para resaltar los cards */
+  border-radius: 8px;
+  /* Borde redondeado */
+}
+
+.productCard img {
+  width: 100%;
+  /* La imagen ocupa todo el ancho del contenedor */
+  height: auto;
+  /* La altura se ajusta automáticamente para mantener la proporción */
+  border-top-left-radius: 8px;
+  /* Borde redondeado superior izquierdo */
+  border-top-right-radius: 8px;
+  /* Borde redondeado superior derecho */
+}
+
+.productCard .cardBody {
+  padding: 1rem;
+  min-height: 300px;
+  /* Altura mínima del card-body */
+  overflow: hidden;
+  /* Ocultar contenido que exceda la altura */
+}
+
+.productCard .cardTitle {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: red;
+}
+
+.productCard .price {
+  font-size: 1rem;
+  /* Tamaño de fuente del precio */
+}
+
+.productCard .discount-price {
+  font-size: 0.9rem;
+  /* Tamaño de fuente del precio con descuento */
+  text-decoration: underline;
+  /* Subrayado para el precio con descuento */
+}

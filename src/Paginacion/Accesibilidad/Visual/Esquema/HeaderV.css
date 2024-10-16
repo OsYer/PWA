@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.Header {
+  background-color: #333333;
+}
+
+.Header .navbar-brand,
+.Header .nav-link,
+.Header .form-control {
+  color: #FFFFFF   ; /* Cambia el color del texto a negro */
+}
+
+.Header .nav-link:hover {
+  color: #FFFFFF  ; /* Cambia el color del texto al pasar el cursor por encima */
+}
+
+.Header .navbar-toggler-icon,
+.Header .navbar-toggler {
+  background-color: #FFFFFF   ; /* Cambia el color del icono del menú desplegable */
+}
+
+.Header .navbar-toggler-icon:hover {
+  background-color: #FFD700 ; /* Cambia el color del icono del menú desplegable al pasar el cursor por encima */
+}
+
+.Header .nav-link,
+.Header .form-control,
+.Header .navbar-toggler,
+.Header .navbar-toggler-icon {
+  font-size: 16px; /* Cambia el tamaño de la fuente del texto e iconos */
+}
+
+.Header .navbar-toggler-icon,
+.Header .navbar-toggler {
+  border: 1px solid #FFFFFF ; /* Cambia el borde del icono del menú desplegable */
+}
+
+.icon-color{
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+
+  .checkbtnH {
+    display: block;
+  }
+  .menu-iconH {
+    display: block;
+    position: fixed;
+    top: 25px;
+    right: 17px;
+    cursor: pointer;
+  }
+
+  .navbarH .ulH {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+
+    text-align: center;
+    top: 70px;
+    left: 100%;
+    background: rgb(122, 2, 68);
+    width: 100%;
+    height: 100vh;
+    grid-template-columns: 1fr;
+    columns: 1;
+  }
+
+  #check:checked ~ .ulH {
+    left: 0;
+    transition: all 0.25s;
+  }
+}

@@ -1,0 +1,65 @@
+/* CSS para eliminar los bordes de las pestañas */
+.no-border-tabs .nav-link {
+    border: none;
+    border-bottom: 2px solid transparent;
+    color: black; /* Establece el color de las pestañas no seleccionadas */
+  }
+  
+
+  
+  .no-border-tabs .nav-link.active {
+    border-bottom: 2px solid #007bff;
+    color: black; /* Establece el color de las pestañas seleccionadas */
+  }
+  
+  .tab-content-custom {
+	padding-top: 44px;
+  }
+
+  .tab-content-custom h6 {
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 26px;
+  }
+  
+  .tab-content-custom p {
+    color: #666666;
+  }
+
+  .product-slider {
+    position: relative;
+  }
+  @media (min-width: 992px) {
+    .product-slider {
+      height: calc(100% - 3.5625rem);
+    }
+  }
+  @media (min-width: 1200px) {
+    .product-slider {
+      height: calc(100% - 3.3125rem);
+    }
+  }
+  @media (min-width: 1540px) {
+    .product-slider {
+      height: calc(100% - 4.75rem);
+    }
+  }
+  
+  [data-layout=container].container-fluid .product-slider, [data-layout=container].container-sm .product-slider, [data-layout=container].container-md .product-slider, [data-layout=container].container-lg .product-slider, [data-layout=container].container-xl .product-slider, [data-layout=container].container-xxl .product-slider {
+    position: relative;
+  }
+  @media (min-width: 992px) {
+    [data-layout=container].container-fluid .product-slider, [data-layout=container].container-sm .product-slider, [data-layout=container].container-md .product-slider, [data-layout=container].container-lg .product-slider, [data-layout=container].container-xl .product-slider, [data-layout=container].container-xxl .product-slider {
+      height: calc(100% - 4.36rem);
+    }
+  }
+  @media (min-width: 1200px) {
+    [data-layout=container].container-fluid .product-slider, [data-layout=container].container-sm .product-slider, [data-layout=container].container-md .product-slider, [data-layout=container].container-lg .product-slider, [data-layout=container].container-xl .product-slider, [data-layout=container].container-xxl .product-slider {
+      height: calc(100% - 4.86rem);
+    }
+  }
+  @media (min-width: 1540px) {
+    [data-layout=container].container-fluid .product-slider, [data-layout=container].container-sm .product-slider, [data-layout=container].container-md .product-slider, [data-layout=container].container-lg .product-slider, [data-layout=container].container-xl .product-slider, [data-layout=container].container-xxl .product-slider {
+      height: calc(100% - 6.42rem);
+    }
+  }

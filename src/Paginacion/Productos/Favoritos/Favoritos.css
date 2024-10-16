@@ -1,0 +1,59 @@
+.favorites-container {
+    height: 70vh;
+    padding-top: 20px;
+  }
+  
+  .favorites-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+  }
+  
+  .favorites-card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-row {
+    background-color: #f8f9fa;
+    font-weight: 600;
+  }
+  
+  .product-row {
+    padding: 10px 15px;
+    transition: background-color 0.2s;
+  }
+  
+  .product-row:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .product-row img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product-row h5 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .product-row .text-danger {
+    cursor: pointer;
+  }
+  
+  .product-row .text-danger:hover {
+    text-decoration: underline;
+  }
+
+  .no-underline {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .no-underline:hover {
+    text-decoration: none;
+    color: inherit; 
+  }

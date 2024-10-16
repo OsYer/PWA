@@ -1,0 +1,13 @@
+.hover-card:hover {
+  background-color: #EEEEEE; /* Cambia el color de fondo al pasar el mouse sobre el card */
+  cursor: pointer; /* Cambia el cursor al pasar el mouse sobre el card */
+}
+
+.edit-link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.edit-link:hover {
+  color: #3483FA;
+}
+

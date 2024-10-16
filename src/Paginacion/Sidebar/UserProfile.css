@@ -1,0 +1,28 @@
+.user-profile {
+  display: inline-block;
+}
+
+.image-container {
+  position: relative;
+}
+
+.user-image {
+  width: 75px; /* Tamaño de la imagen del usuario */
+  height: 75px; /* Mantener el mismo tamaño para hacerla redonda */
+  border-radius: 50%; /* Hacer la imagen redonda */
+  cursor: pointer;
+  border: 1px solid #000;
+}
+
+
+.change-image {
+  background-color: white;
+  position: absolute;
+  top: 55px;
+  right: -0px; /* Ajustar la posición de la imagen de cambio */
+  width: 19px; /* Tamaño de la imagen de cambio */
+  height: 19px; /* Mantener el mismo tamaño para hacerla redonda */
+  border-radius: 50%; /* Hacer la imagen redonda */
+  cursor: pointer;
+  border: 1px solid #000;
+}

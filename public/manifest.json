@@ -1,0 +1,31 @@
+{
+  "short_name": "Sport Gym Center",
+  "name": "Sport Gym Center",
+  "icons": [
+    {
+      "src": "/images/logo_2.jpeg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/images/512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/images/64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#191919",
+  "background_color": "#191919",
+  "form_factor": "wide"  
+}

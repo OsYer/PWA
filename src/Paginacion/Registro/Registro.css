@@ -1,0 +1,80 @@
+/* CSS adicional para el acordeón */
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:focus {
+  background-color: #e9ecef;
+  outline: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+}
+
+.accordion-collapse {
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+
+.accordion-item.active .accordion-collapse {
+  height: auto;
+}
+
+.accordion-button.collapsed {
+  background-color: #f8f9fa; /* Cambia al color de fondo original cuando el botón está colapsado */
+}
+
+
+.password-input-wrapper {
+  position: relative;
+}
+
+.toggle-password-button {
+  position: absolute;
+  top: 50%;
+  right: 10px; /* Ajusta la posición del ícono a tu gusto */
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* CSS adicional para el acordeón */
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: none;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-button:focus {
+  background-color: #e9ecef;
+  outline: none;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #e9ecef;
+}
+
+.accordion-collapse {
+  transition: height 0.3s ease;
+  overflow: hidden;
+}
+
+.accordion-item.active .accordion-collapse {
+  height: auto;
+}
+
+.accordion-button.collapsed {
+  background-color: #f8f9fa; /* Cambia al color de fondo original cuando el botón está colapsado */
+}

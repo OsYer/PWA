@@ -1,0 +1,7 @@
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Esto asegura que el contenedor ocupe toda la altura de la pantalla */
+  }
+  
