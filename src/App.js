@@ -37,10 +37,6 @@ function App() {
   
   return (
     <>
-      {/* <button id="install-button" style={{ display: 'none' }}>
-        Instalar PWA
-      </button> */}
-
       <Rutas />
     </>
   );
