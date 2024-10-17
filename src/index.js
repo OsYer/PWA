@@ -31,9 +31,9 @@ if ('serviceWorker' in navigator) {
               if (navigator.serviceWorker.controller) {
                 // Nueva versión disponible
                 console.log('Nueva versión disponible. Recargar la página para actualizar.');
-                if (window.confirm('Nueva versión disponible. ¿Recargar ahora?')) {
-                  window.location.reload();
-                }
+                // if (window.confirm('Nueva versión disponible. ¿Recargar ahora?')) {
+                //   window.location.reload();
+                // }
               }
             }
           };
