@@ -4,42 +4,4 @@
     align-items: center;
     height: 50vh; /* Esto asegura que el contenedor ocupe toda la altura de la pantalla */
   }
-  /* Estilo responsivo para el buscador */
-.search-bar {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 400px;
-  margin: 10px auto;
-  border: 1px solid #ddd;
-  border-radius: 25px;
-  padding: 5px 10px;
-  box-sizing: border-box;
-}
-
-.search-bar input {
-  border: none;
-  outline: none;
-  flex: 1;
-  padding: 10px;
-  font-size: 16px;
-  border-radius: 25px;
-}
-
-.search-bar button {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin-left: 10px;
-}
-
-@media (max-width: 768px) {
-  .search-bar {
-    max-width: 100%;
-    padding: 8px;
-  }
-
-  .search-bar input {
-    font-size: 14px;
-  }
-}
+  
